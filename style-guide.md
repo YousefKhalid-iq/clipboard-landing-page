@@ -30,6 +30,10 @@ The designs were created to the following widths:
 - Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
 - Weights: 400, 600
 
+- what to type :
+
+- font-family: 'Bai Jamjuree', sans-serif;
+
 ## Icons
 
 For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
