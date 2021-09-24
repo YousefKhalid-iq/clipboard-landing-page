@@ -13,7 +13,7 @@ main {
 }
 
 .header-section {
-  padding: 30% 0;
+  padding: 15% 0 30% 0;
 }
 
 .logo-img {
@@ -58,6 +58,7 @@ h1 {
   box-shadow: 0px 3px 2px hsla(171, 66%, 40%, 1);
   cursor: pointer;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .mac-btn {
@@ -69,6 +70,7 @@ h1 {
   box-shadow: 0px 3px 2px hsla(233, 100%, 65%, 1);
   cursor: pointer;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .track-section {
@@ -84,6 +86,7 @@ h1 {
   margin: 0 auto;
   font-size: 1.6rem;
   font-weight: 600;
+  padding-bottom: 3%;
 }
 
 .track-p {
@@ -152,6 +155,7 @@ h1 {
   color: hsl(201, 11%, 66%);
   padding-bottom: 15%;
   line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 
 .tools-icons {
@@ -258,6 +262,217 @@ h1 {
 .info {
   background-color: hsl(201, 11%, 95%);
   padding: 5% 0;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+
+  .header-section {
+    padding: 0 0 10% 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .logo-img {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    padding-top: 5%;
+  }
+
+  .btns-cont {
+    display: flex;
+    width: 77%;
+    margin: 0 auto;
+  }
+
+  .ios-cont, .mac-cont {
+    width: 50%;
+  }
+
+  .ios-btn {
+    padding: 5% 10%;
+  }
+
+  .mac-btn {
+    padding: 5% 10%;
+  }
+
+  .track-section {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .computer-flex-cont {
+    display: flex;
+    width: 80%;
+  }
+
+  .computer-img-cont {
+    width: 70%;
+  }
+
+  .computer-img {
+    width: 100%; 
+    margin-left: -10%;
+  }
+
+  .computer-text {
+    width: 30%;
+    margin-top: -8%;
+  }
+
+  .computer-h2 {
+    width: 140%;
+    text-align: left;
+  }
+
+  .computer-p {
+    width: 140%;
+    text-align: left;
+  }
+
+  .access-section {
+    width: 70%;
+    padding-bottom: 5%;
+  }
+
+  .devices-img {
+    padding-top: 10%;
+    width: 100%;
+  }
+
+  .tools-section {
+    padding-bottom: 0;
+  }
+
+  .tools-p {
+    padding-bottom: 5%;
+  }
+
+  .tools-cont {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .tools-icons {
+    width: 25%;
+    height: 34%;
+    object-fit: contain;
+  }
+
+  .create-cont {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .text-cont {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .sneak-cont {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .create-head-p, .text-head-p, .sneak-head-p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .create-p, .text-p, .sneak-p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .logos {
+    flex-direction: row;
+    width: 80%;
+    margin: 0  auto;
+    padding: 10% 0;
+  }
+
+  .logo-img {
+    width: 14%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .ibm {
+    width: 10%;
+  }
+
+  .hp {
+    width: 10%;
+  }
+
+  .vector {
+    width: 12%;
+  }
+
+  .clipboard-section {
+    padding-bottom: 10%;
+    width: 60%;
+  }
+
+  .clipboard-p {
+    width: 100%;
+    padding-top: 3%;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-flex {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .footer-logo-cont {
+    width: 30%;
+  }
+
+  .logo-footer {
+    padding: 0;
+    margin: 0;
+    width: 40%;
+  }
+
+  .footer-links {
+    width: 100%;
+    column-count: 3;
+    padding: 0;
+  }
+
+  .footer-links li {
+    list-style: none;
+    padding: 5% 0;
+  }
+
+  .footer-socials {
+    padding: 0;
+    width: 60%;
+    text-align: right;
+  }
+
+  .footer-socials li {
+    padding: 0 3%;
+  }
+
+  .info {
+    padding: 5% 0 2% 0;
+  }
 }
 
 .attribution { 
