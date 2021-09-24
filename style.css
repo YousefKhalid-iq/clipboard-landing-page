@@ -59,6 +59,7 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   font-size: 0.9rem;
+  transition: 0.3s all ease-in-out;
 }
 
 .mac-btn {
@@ -71,6 +72,11 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   font-size: 0.9rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.ios-btn:hover, .mac-btn:hover {
+  opacity: 0.7;
 }
 
 .track-section {
@@ -243,6 +249,11 @@ h1 {
 .footer-links a {
   text-decoration: none;
   color: hsl(210, 10%, 33%);
+  transition: 0.1s all ease-in-out;
+}
+
+.footer-links a:hover {
+  color: hsl(171, 80%, 44%);
 }
 
 .footer-socials {
@@ -257,6 +268,11 @@ h1 {
 
 .footer-socials a {
   text-decoration: none;
+  transition: 0.2s all ease-in-out;
+}
+
+.footer-socials a:hover {
+  filter: invert(0.33) sepia(1) saturate(10.8) hue-rotate(130.6deg) brightness(1);
 }
 
 .info {
@@ -273,7 +289,7 @@ h1 {
   }
 
   .header-section {
-    padding: 0 0 10% 0;
+    padding: 10% 0 10% 0;
     width: 60%;
     margin: 0 auto;
   }
@@ -307,6 +323,14 @@ h1 {
   .track-section {
     width: 100%;
     padding-bottom: 0;
+  }
+
+  .track-h2 {
+    width: 60%;
+  }
+
+  .track-p {
+    width: 60%;
   }
 
   .computer-flex-cont {
@@ -472,6 +496,69 @@ h1 {
 
   .info {
     padding: 5% 0 2% 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-section {
+    padding-bottom: 7%;
+  }
+
+  .track-p {
+    padding-bottom: 5%;
+  }
+
+  .computer-text {
+    margin: 0;
+  }
+
+  .header-para {
+    padding-bottom: 5%;
+  }
+
+  .btns-cont {
+    width: 60%;
+  }
+
+  .access-h2 {
+    padding-top: 10%;
+  }
+
+  .access-section {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .header-para {
+    width: 60%;
+    padding-bottom: 5%;
+  }
+
+  .btns-cont {
+    width: 42%;
+  }
+
+  .track-p {
+    width: 40%;
+  }
+
+  .computer-p {
+    width: 90%;
+    margin: 0;
+  }
+
+  .access-p {
+    width: 60%;
+  }
+
+  .tools-h2 {
+    padding-bottom: 2%;
+  }
+
+  .clipboard-p {
+    width: 65%;
+    padding-bottom: 5%;
   }
 }
 
